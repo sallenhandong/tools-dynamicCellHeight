@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98A5E55B1EA494E000816314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E55A1EA494E000816314 /* main.m */; };
+		98A5E55E1EA494E000816314 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E55D1EA494E000816314 /* AppDelegate.m */; };
+		98A5E5611EA494E000816314 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E5601EA494E000816314 /* ViewController.m */; };
+		98A5E5641EA494E100816314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A5E5621EA494E100816314 /* Main.storyboard */; };
+		98A5E5661EA494E100816314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A5E5651EA494E100816314 /* Assets.xcassets */; };
+		98A5E5691EA494E100816314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A5E5671EA494E100816314 /* LaunchScreen.storyboard */; };
+		98A5E5761EA4952D00816314 /* MasatamiDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E5711EA4952D00816314 /* MasatamiDetailTableViewCell.m */; };
+		98A5E5771EA4952D00816314 /* MasatamiDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98A5E5721EA4952D00816314 /* MasatamiDetailTableViewCell.xib */; };
+		98A5E5781EA4952D00816314 /* MasatamiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E5741EA4952D00816314 /* MasatamiTableViewCell.m */; };
+		98A5E5791EA4952D00816314 /* MasatamiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98A5E5751EA4952D00816314 /* MasatamiTableViewCell.xib */; };
+		98A5E57F1EA4955F00816314 /* MasatamiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E57E1EA4955F00816314 /* MasatamiModel.m */; };
+		98A5E5821EA4957400816314 /* MasatamiFrameViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E5811EA4957400816314 /* MasatamiFrameViewModel.m */; };
+		98A5E58A1EA4959900816314 /* UITableView+HeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E5851EA4959900816314 /* UITableView+HeightCache.m */; };
+		98A5E58B1EA4959900816314 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E5871EA4959900816314 /* UIView+Extension.m */; };
+		98A5E58C1EA4959900816314 /* YBPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E5891EA4959900816314 /* YBPictureView.m */; };
+		98A5E5901EA495EF00816314 /* MasatamiDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E58E1EA495EF00816314 /* MasatamiDetailViewController.m */; };
+		98A5E5911EA495EF00816314 /* MasatamiDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98A5E58F1EA495EF00816314 /* MasatamiDetailViewController.xib */; };
+		98A5E5951EA496C700816314 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E5941EA496C700816314 /* UIColor+Hex.m */; };
+		98A5E5981EA496F000816314 /* YBSinglePictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E5971EA496F000816314 /* YBSinglePictureView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98A5E5561EA494E000816314 /* dynamicCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dynamicCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A5E55A1EA494E000816314 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98A5E55C1EA494E000816314 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98A5E55D1EA494E000816314 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98A5E55F1EA494E000816314 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98A5E5601EA494E000816314 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98A5E5631EA494E100816314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98A5E5651EA494E100816314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98A5E5681EA494E100816314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98A5E56A1EA494E100816314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A5E5701EA4952D00816314 /* MasatamiDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasatamiDetailTableViewCell.h; path = dynamicCellHeight/MasatamiDetailTableViewCell.h; sourceTree = "<group>"; };
+		98A5E5711EA4952D00816314 /* MasatamiDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasatamiDetailTableViewCell.m; path = dynamicCellHeight/MasatamiDetailTableViewCell.m; sourceTree = "<group>"; };
+		98A5E5721EA4952D00816314 /* MasatamiDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MasatamiDetailTableViewCell.xib; path = dynamicCellHeight/MasatamiDetailTableViewCell.xib; sourceTree = "<group>"; };
+		98A5E5731EA4952D00816314 /* MasatamiTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasatamiTableViewCell.h; path = dynamicCellHeight/MasatamiTableViewCell.h; sourceTree = "<group>"; };
+		98A5E5741EA4952D00816314 /* MasatamiTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasatamiTableViewCell.m; path = dynamicCellHeight/MasatamiTableViewCell.m; sourceTree = "<group>"; };
+		98A5E5751EA4952D00816314 /* MasatamiTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MasatamiTableViewCell.xib; path = dynamicCellHeight/MasatamiTableViewCell.xib; sourceTree = "<group>"; };
+		98A5E57D1EA4955F00816314 /* MasatamiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasatamiModel.h; sourceTree = "<group>"; };
+		98A5E57E1EA4955F00816314 /* MasatamiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasatamiModel.m; sourceTree = "<group>"; };
+		98A5E5801EA4957400816314 /* MasatamiFrameViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasatamiFrameViewModel.h; sourceTree = "<group>"; };
+		98A5E5811EA4957400816314 /* MasatamiFrameViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasatamiFrameViewModel.m; sourceTree = "<group>"; };
+		98A5E5841EA4959900816314 /* UITableView+HeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HeightCache.h"; sourceTree = "<group>"; };
+		98A5E5851EA4959900816314 /* UITableView+HeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HeightCache.m"; sourceTree = "<group>"; };
+		98A5E5861EA4959900816314 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		98A5E5871EA4959900816314 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		98A5E5881EA4959900816314 /* YBPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPictureView.h; sourceTree = "<group>"; };
+		98A5E5891EA4959900816314 /* YBPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPictureView.m; sourceTree = "<group>"; };
+		98A5E58D1EA495EF00816314 /* MasatamiDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasatamiDetailViewController.h; sourceTree = "<group>"; };
+		98A5E58E1EA495EF00816314 /* MasatamiDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasatamiDetailViewController.m; sourceTree = "<group>"; };
+		98A5E58F1EA495EF00816314 /* MasatamiDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasatamiDetailViewController.xib; sourceTree = "<group>"; };
+		98A5E5921EA4961D00816314 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		98A5E5931EA496C700816314 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		98A5E5941EA496C700816314 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		98A5E5961EA496F000816314 /* YBSinglePictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSinglePictureView.h; sourceTree = "<group>"; };
+		98A5E5971EA496F000816314 /* YBSinglePictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSinglePictureView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98A5E5531EA494E000816314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98A5E54D1EA494E000816314 = {
+			isa = PBXGroup;
+			children = (
+				98A5E5831EA4957F00816314 /* Tools */,
+				98A5E57C1EA4954400816314 /* ViewModel */,
+				98A5E57B1EA4953F00816314 /* Model */,
+				98A5E57A1EA4953000816314 /* View */,
+				98A5E5581EA494E000816314 /* dynamicCellHeight */,
+				98A5E5571EA494E000816314 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98A5E5571EA494E000816314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98A5E5561EA494E000816314 /* dynamicCellHeight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98A5E5581EA494E000816314 /* dynamicCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				98A5E58D1EA495EF00816314 /* MasatamiDetailViewController.h */,
+				98A5E58E1EA495EF00816314 /* MasatamiDetailViewController.m */,
+				98A5E58F1EA495EF00816314 /* MasatamiDetailViewController.xib */,
+				98A5E55C1EA494E000816314 /* AppDelegate.h */,
+				98A5E55D1EA494E000816314 /* AppDelegate.m */,
+				98A5E55F1EA494E000816314 /* ViewController.h */,
+				98A5E5601EA494E000816314 /* ViewController.m */,
+				98A5E5621EA494E100816314 /* Main.storyboard */,
+				98A5E5651EA494E100816314 /* Assets.xcassets */,
+				98A5E5671EA494E100816314 /* LaunchScreen.storyboard */,
+				98A5E56A1EA494E100816314 /* Info.plist */,
+				98A5E5591EA494E000816314 /* Supporting Files */,
+			);
+			path = dynamicCellHeight;
+			sourceTree = "<group>";
+		};
+		98A5E5591EA494E000816314 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98A5E5921EA4961D00816314 /* PrefixHeader.pch */,
+				98A5E55A1EA494E000816314 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98A5E57A1EA4953000816314 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98A5E5701EA4952D00816314 /* MasatamiDetailTableViewCell.h */,
+				98A5E5711EA4952D00816314 /* MasatamiDetailTableViewCell.m */,
+				98A5E5721EA4952D00816314 /* MasatamiDetailTableViewCell.xib */,
+				98A5E5731EA4952D00816314 /* MasatamiTableViewCell.h */,
+				98A5E5741EA4952D00816314 /* MasatamiTableViewCell.m */,
+				98A5E5751EA4952D00816314 /* MasatamiTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		98A5E57B1EA4953F00816314 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98A5E57D1EA4955F00816314 /* MasatamiModel.h */,
+				98A5E57E1EA4955F00816314 /* MasatamiModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		98A5E57C1EA4954400816314 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				98A5E5801EA4957400816314 /* MasatamiFrameViewModel.h */,
+				98A5E5811EA4957400816314 /* MasatamiFrameViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		98A5E5831EA4957F00816314 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				98A5E5961EA496F000816314 /* YBSinglePictureView.h */,
+				98A5E5971EA496F000816314 /* YBSinglePictureView.m */,
+				98A5E5931EA496C700816314 /* UIColor+Hex.h */,
+				98A5E5941EA496C700816314 /* UIColor+Hex.m */,
+				98A5E5841EA4959900816314 /* UITableView+HeightCache.h */,
+				98A5E5851EA4959900816314 /* UITableView+HeightCache.m */,
+				98A5E5861EA4959900816314 /* UIView+Extension.h */,
+				98A5E5871EA4959900816314 /* UIView+Extension.m */,
+				98A5E5881EA4959900816314 /* YBPictureView.h */,
+				98A5E5891EA4959900816314 /* YBPictureView.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98A5E5551EA494E000816314 /* dynamicCellHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A5E56D1EA494E100816314 /* Build configuration list for PBXNativeTarget "dynamicCellHeight" */;
+			buildPhases = (
+				98A5E5521EA494E000816314 /* Sources */,
+				98A5E5531EA494E000816314 /* Frameworks */,
+				98A5E5541EA494E000816314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dynamicCellHeight;
+			productName = dynamicCellHeight;
+			productReference = 98A5E5561EA494E000816314 /* dynamicCellHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98A5E54E1EA494E000816314 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sallen;
+				TargetAttributes = {
+					98A5E5551EA494E000816314 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 98A5E5511EA494E000816314 /* Build configuration list for PBXProject "dynamicCellHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98A5E54D1EA494E000816314;
+			productRefGroup = 98A5E5571EA494E000816314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A5E5551EA494E000816314 /* dynamicCellHeight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98A5E5541EA494E000816314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A5E5691EA494E100816314 /* LaunchScreen.storyboard in Resources */,
+				98A5E5791EA4952D00816314 /* MasatamiTableViewCell.xib in Resources */,
+				98A5E5661EA494E100816314 /* Assets.xcassets in Resources */,
+				98A5E5641EA494E100816314 /* Main.storyboard in Resources */,
+				98A5E5911EA495EF00816314 /* MasatamiDetailViewController.xib in Resources */,
+				98A5E5771EA4952D00816314 /* MasatamiDetailTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98A5E5521EA494E000816314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A5E5901EA495EF00816314 /* MasatamiDetailViewController.m in Sources */,
+				98A5E5951EA496C700816314 /* UIColor+Hex.m in Sources */,
+				98A5E58B1EA4959900816314 /* UIView+Extension.m in Sources */,
+				98A5E5611EA494E000816314 /* ViewController.m in Sources */,
+				98A5E55E1EA494E000816314 /* AppDelegate.m in Sources */,
+				98A5E5821EA4957400816314 /* MasatamiFrameViewModel.m in Sources */,
+				98A5E57F1EA4955F00816314 /* MasatamiModel.m in Sources */,
+				98A5E5981EA496F000816314 /* YBSinglePictureView.m in Sources */,
+				98A5E5781EA4952D00816314 /* MasatamiTableViewCell.m in Sources */,
+				98A5E58A1EA4959900816314 /* UITableView+HeightCache.m in Sources */,
+				98A5E55B1EA494E000816314 /* main.m in Sources */,
+				98A5E58C1EA4959900816314 /* YBPictureView.m in Sources */,
+				98A5E5761EA4952D00816314 /* MasatamiDetailTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98A5E5621EA494E100816314 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A5E5631EA494E100816314 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98A5E5671EA494E100816314 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A5E5681EA494E100816314 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98A5E56B1EA494E100816314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98A5E56C1EA494E100816314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98A5E56E1EA494E100816314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/jefactoria/Desktop/dynamicCellHeight/PrefixHeader.pch;
+				INFOPLIST_FILE = dynamicCellHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sallen.dynamicCellHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98A5E56F1EA494E100816314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/jefactoria/Desktop/dynamicCellHeight/PrefixHeader.pch;
+				INFOPLIST_FILE = dynamicCellHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sallen.dynamicCellHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98A5E5511EA494E000816314 /* Build configuration list for PBXProject "dynamicCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A5E56B1EA494E100816314 /* Debug */,
+				98A5E56C1EA494E100816314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A5E56D1EA494E100816314 /* Build configuration list for PBXNativeTarget "dynamicCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A5E56E1EA494E100816314 /* Debug */,
+				98A5E56F1EA494E100816314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98A5E54E1EA494E000816314 /* Project object */;
+}
